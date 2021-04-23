@@ -1,0 +1,114 @@
+/* .App {
+  text-align: center;
+} */
+
+
+
+.timesheet-chaser-container{
+  width:500px;
+  margin:auto;
+  padding:10px;
+  margin-top:1px;
+  overflow-y:auto;
+  border-radius:10px;
+  border:1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timesheet-chaser-list{
+  background-color: gainsboro;
+  border:1px solid #000;
+  /* box-shadow: 3px 3px 3px #ccc; */
+  border-radius: 3px;
+  transition: 0.15s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 3px;
+}
+
+.tm-id-section{
+  display: flex;
+  column-gap: 30px;
+}
+.tm-id > span{
+  background:#e1f5fe;
+  border-radius:20px;
+  color:#0A0A23;
+  padding: 3px 5px 3px;
+  justify-content: center;
+}
+
+.tm-approver-wrapper{
+  display: flex;
+  gap:30px;
+}
+
+.timesheet-approver-section {
+  background:#e1f5fe;
+  margin:5px;
+  border-radius:20px;
+  color:#0A0A23;
+  /* border:1px solid #8E562E; */
+  display: inline-block;
+  transition: 0.15s ease-in-out;
+  padding: 1px 3px 1px;
+}
+
+.timesheet-approver-section:hover {
+  padding:5px;
+  cursor: pointer;
+}
+
+.cancel-tm-approver{
+  margin-left:"5px";
+  border-radius:50px;
+  padding:0px 4px 1px;
+  color:#0A0A23;
+  cursor:pointer;
+  margin-left: 2px;
+  
+}
+
+.cancel-tm-approver:hover{
+  background-color: #ffcdd2 ;
+  color:#f44336 ;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
